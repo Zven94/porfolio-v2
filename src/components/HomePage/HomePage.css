@@ -1,0 +1,112 @@
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebeef1;
+  margin-top: 15rem;
+}
+
+/* .mainDiv {
+  width: 90%;
+  height: 100%;
+  margin: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 10px 10px 10px -5px #0a63a94d, 
+  -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
+} */
+
+.homeDiv {
+  width: 95%;
+  height: 50rem;
+  border-radius: 5rem 0rem 5rem 0rem;
+  box-shadow: 10px 10px 10px -5px #0a63a94d, 
+  -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
+}
+
+.borderDiv {
+  width: 32rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  /* border: 2px solid#39bea1; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px -5px rgb(89 182 255),
+  inset 10px 10px 10px -5px #0a63a94d, 
+  inset -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
+}
+
+.colOne {
+  width: 65%;
+}
+
+.colContent {
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: inset 10px 10px 15px 0px #0a63a94d,
+  5px 5px 15px 5px rgba(255, 255, 255, 0.65)
+}
+
+.colTwo {
+  width: 35%;
+}
+
+.headerOne {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #397cbe;
+  margin: 0;
+}
+
+.headerTwoDiv {
+  width: 27vw;
+}
+
+.headerTwo {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #39bea1;
+  margin: 1rem;
+}
+
+.paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.35vw;
+  color: #0a64a98a;
+}
+
+.picProfileDiv {
+  width: 18rem;
+  height: 18rem;
+  border: none;
+  border-radius: 9.5rem;
+  box-shadow: 15px 15px 15px -10px rgba(10, 99, 169, 0.5),
+  -15px -15px 15px -10px rgba(255, 255, 255, 0.80);
+}
+
+.picProfile {
+  width: 17rem;
+  border: none;
+  border-radius: 12.5rem;
+  opacity: 0.9;
+}
+
+.picProfileDiv:hover {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 15rem;
+  box-shadow: 0px 0px 5px 2px rgb(89 182 255),
+  15px 15px 15px -10px rgba(10, 99, 169, 0.5),
+  -15px -15px 15px -10px rgba(255, 255, 255, 0.80);
+
+  .picProfile {
+    width: 29rem;
+    border: none;
+    border-radius: 15rem;
+  }
+}
