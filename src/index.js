@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import HomePage from './components/HomePage/HomePage';
+import NavBar from './components/NavBar/NavBar';
 import HomePage from './components/HomePage/HomePage';
 import AboutPage from './components/AboutPage/AboutPage';
 import ProjectsPage from './components/ProjectsPage/ProjectsPage';
@@ -27,6 +28,7 @@ const BrowserRouter = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <NavBar />
     <RouterProvider router={BrowserRouter} />
   </React.StrictMode>,
 );
