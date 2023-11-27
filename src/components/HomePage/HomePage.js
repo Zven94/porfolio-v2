@@ -3,14 +3,16 @@ import React from 'react';
 import './HomePage.css';
 import picProfile from '../../images/profile-pic.png';
 import AboutPage from '../AboutPage/AboutPage';
+import ProjectsPage from '../ProjectsPage/ProjectsPage';
+import ContactPage from '../Contact/ContactPage';
 
 function HomePage() {
   return (
     <>
       {/* <NavBar className="w-100 d-flex justify-content-between" /> */}
       <div className="d-flex flex-column justify-content-around align-items-center mainDiv p-4">
-        <div className="d-flex justify-content-around align-items-center p-5 homeDiv">
-          <div className="d-flex align-items-center colContent">
+        <div className="d-flex justify-content-around align-items-center homeDiv">
+          <div className="d-flex justify-content-between align-items-center colContent">
             <div className="d-flex flex-column justify-content-around colOne">
               <div className="d-flex flex-column justify-content-center align-items-center p-5">
                 <div className="borderDiv">
@@ -42,6 +44,8 @@ function HomePage() {
           </div>
         </div>
         <AboutPage />
+        <ProjectsPage />
+        <ContactPage />
       </div>
     </>
   );

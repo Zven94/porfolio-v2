@@ -7,19 +7,21 @@ body {
   margin-top: 15rem;
 }
 
-/* .mainDiv {
+.mainDiv {
+  position: absolute;
+  top: 1rem;
   width: 90%;
-  height: 100%;
-  margin: 1rem;
+  /* height: 100%; */
+  margin-top: 9rem;
   border-radius: 1.5rem;
   box-shadow: 10px 10px 10px -5px #0a63a94d, 
   -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
-} */
+}
 
 .homeDiv {
   width: 95%;
-  height: 50rem;
-  border-radius: 5rem 0rem 5rem 0rem;
+  height: 55rem;
+  border-radius: 15rem 0rem 15rem 0rem;
   box-shadow: 10px 10px 10px -5px #0a63a94d, 
   -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
 }
@@ -39,14 +41,14 @@ body {
 }
 
 .colOne {
-  width: 65%;
+  width: 45%;
 }
 
 .colContent {
-  width: 100%;
-  border-radius: 2rem;
-  box-shadow: inset 10px 10px 15px 0px #0a63a94d,
-  5px 5px 15px 5px rgba(255, 255, 255, 0.65)
+  width: 90%;
+  /* border-radius: 2rem; */
+  /* box-shadow: inset 10px 10px 15px 0px #0a63a94d,
+  5px 5px 15px 5px rgba(255, 255, 255, 0.65) */
 }
 
 .colTwo {
