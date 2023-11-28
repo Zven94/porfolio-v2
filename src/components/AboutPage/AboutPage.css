@@ -1,0 +1,43 @@
+.aboutDiv {
+  width: 95%;
+  height: 50rem;
+  background-color: #ffb237;
+  border-radius: 0 15rem 0 15rem;
+  box-shadow: 10px 10px 10px -5px #0a63a94d, 
+  -10px -10px 10px -5px #ffae08fc;
+  margin-top: 2rem;
+}
+
+.aboutContainer {
+  height: 40rem;
+}
+
+.carouselDiv {
+  width: 50%;
+  height: 15rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 10px -5px #0a63a94d, 
+  -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
+}
+
+.carouselContent {
+  height: 10rem;
+}
+
+.carouselImg {
+  width: 25rem;
+}
+
+.carousel-indicators {
+  color:#000;
+  bottom: -5.5rem;
+}
+
+.picProfileDivAbout {
+  width: 18rem;
+  height: 18rem;
+  border: none;
+  border-radius: 9.5rem;
+  box-shadow: 15px 15px 15px -10px rgba(10, 99, 169, 0.5),
+  -15px -15px 15px -10px #ffd673;
+}
