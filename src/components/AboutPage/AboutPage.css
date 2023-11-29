@@ -5,32 +5,41 @@
   border-radius: 0 15rem 0 15rem;
   box-shadow: 10px 10px 10px -5px #0a63a94d, 
   -10px -10px 10px -5px #ffae08fc;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .aboutContainer {
+  width: 35rem;
   height: 40rem;
 }
 
+.AboutP {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+}
+
 .carouselDiv {
-  width: 50%;
-  height: 15rem;
-  padding: 1rem;
-  box-shadow: 10px 10px 10px -5px #0a63a94d, 
-  -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
+  width: 35%;
+  height: 40rem;
+  /* padding: 1rem; */
+  border-radius: 4rem;
+  /* box-shadow: 10px 10px 10px -5px #0a63a94d, 
+  -10px -10px 10px -5px rgba(255, 255, 255, 0.80); */
+  box-shadow: 15px 15px 15px -10px rgba(10, 99, 169, 0.5), -8px -8px 30px -5px #515151;
 }
 
 .carouselContent {
   height: 10rem;
 }
 
-.carouselImg {
-  width: 25rem;
+.carouselImg, .carousel-inner, .carousel-item {
+  border-radius: 4rem;
+  width: 76rem;
 }
 
-.carousel-indicators {
-  color:#000;
-  bottom: -5.5rem;
+.carousel-indicators, .carousel-control-prev, .carousel-control-next-icon {
+  display: none;
 }
 
 .picProfileDivAbout {
