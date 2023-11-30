@@ -3,8 +3,12 @@
   height: 50rem;
   background-color: #ffb237;
   border-radius: 0 15rem 0 15rem;
-  box-shadow: 10px 10px 10px -5px #0a63a94d, 
-  -10px -10px 10px -5px #ffae08fc;
+  /* box-shadow: 10px 10px 10px -5px #0a63a94d, 
+  -10px -10px 10px -5px #ffae08fc; */
+  box-shadow: 15px 15px 15px -10px #d9a200,
+  -8px -8px 30px -5px #ffffff75,
+  inset 10px 10px 15px -10px #d9a200,
+  inset -10px -10px 15px -10px #ffffff75;
   margin-top: 4rem;
 }
 

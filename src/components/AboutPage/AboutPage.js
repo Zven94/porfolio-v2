@@ -33,7 +33,7 @@ function AboutPage() {
               id += 1;
               return (
                 <Carousel.Item key={id}>
-                  <div className="d-flex justify-content-center ">
+                  <div className="d-flex justify-content-center">
                     <img src={item} alt={`Project ${index + 1}`} className="carouselImg" />
                   </div>
                 </Carousel.Item>
