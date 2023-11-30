@@ -6,12 +6,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: #dee2e6; */
   background-color: #ebeef1;
   border-radius: 4rem;
-  box-shadow: 10px 10px 10px -5px rgba(10, 99, 169, 0.3),
-  -10px -10px 10px -5px rgba(255, 255, 255, 0.80);
+  box-shadow: 10px 10px 15px -10px #0a63a94d,
+  -10px -10px 15px -10px #f0f0f0,
+  inset 10px 10px 15px -10px #0a63a94d,
+  inset -10px -10px 15px -10px #f0f0f0;
   z-index: 1;
-  /* margin-bottom: 1.5rem; */
 }
 
 .logoDivOut {
@@ -44,9 +46,11 @@ button {
   box-shadow: 0px 0px 5px 2px rgb(89 182 255),
   10px 10px 10px -5px rgb(202 203 204),
   -10px -10px 10px -5px rgb(253,254,255);
+  /* background-color: #444; */
+  /* box-shadow: 0px 0px 5px 2px rgb(89 182 255), 5px 5px 10px 5px rgb(0 15 31), -5px -5px 10px -4px rgb(253,254,255); */
 }
 
-button:hover {
+button:active {
   width: 3rem;
   height: 3rem;
   border: none;

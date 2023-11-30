@@ -17,26 +17,26 @@ function NavBar() {
             </div>
           </div>
           <div className="d-flex justify-content-between align-items-center buttonsParent">
-            <button type="submit">
-              <a href="/">
+            <a href="#homeDiv">
+              <button type="submit">
                 <BsHouseDoorFill alt="home" size={25} color="rgb(89 182 255)" />
-              </a>
-            </button>
-            <button type="submit">
-              <a href="/about">
+              </button>
+            </a>
+            <a href="#aboutDiv">
+              <button type="submit">
                 <SiAboutdotme alt="about" size={25} color="rgb(89 182 255)" />
-              </a>
-            </button>
-            <button type="submit">
-              <a href="/projects">
+              </button>
+            </a>
+            <a href="#projectsDiv">
+              <button type="submit">
                 <GrProjects alt="projects" size={25} color="rgb(89 182 255)" />
-              </a>
-            </button>
-            <button type="submit">
-              <a href="/">
+              </button>
+            </a>
+            <a href="#contactDiv">
+              <button type="submit">
                 <IoMdContact alt="contact" size={25} color="rgb(89 182 255)" />
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>
