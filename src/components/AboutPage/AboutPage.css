@@ -16,26 +16,38 @@
 .AboutP {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #000;
+  color: #fff;
+}
+
+.resumeButton {
+  width: 25rem;
+  height: 5rem;
+  font-size: 1.15rem;
+  border-radius: 4rem;
+  background-color: transparent;
+  border: none;
+  box-shadow: 15px 15px 15px -10px #d9a200,
+  -8px -8px 30px -5px #ffffff75,
+  inset 10px 10px 15px -10px #d9a200,
+  inset -10px -10px 15px -10px #ffffff75;
 }
 
 .carouselDiv {
-  width: 35%;
-  height: 40rem;
-  /* padding: 1rem; */
+  width: 41rem;
+  height: 22rem;
   border-radius: 4rem;
   /* box-shadow: 10px 10px 10px -5px #0a63a94d, 
   -10px -10px 10px -5px rgba(255, 255, 255, 0.80); */
-  box-shadow: 15px 15px 15px -10px rgba(10, 99, 169, 0.5), -8px -8px 30px -5px #515151;
-}
-
-.carouselContent {
-  height: 10rem;
+  box-shadow: 15px 15px 15px -15px #d9a200,
+  -8px -8px 30px -15px #ffffff75,
+  inset 10px 10px 15px -15px #d9a200,
+  inset -10px -10px 15px -15px #ffffff75;
 }
 
 .carouselImg, .carousel-inner, .carousel-item {
-  border-radius: 4rem;
-  width: 76rem;
+  border-radius: 3rem;
+  width: 39rem;
+  height: 20rem;
 }
 
 .carousel-indicators, .carousel-control-prev, .carousel-control-next-icon {

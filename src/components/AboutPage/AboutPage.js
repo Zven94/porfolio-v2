@@ -25,9 +25,9 @@ function AboutPage() {
             If you like what you see and have a project you need coded,
             don’t hesitate to contact me.
           </p>
-          <Button className="w-25">Get Resume</Button>
+          <Button className="w-25 resumeButton">Get Resume</Button>
         </div>
-        <div className="carouselDiv">
+        <div className="d-flex justify-content-center align-items-center carouselDiv">
           <Carousel className="carouselContent" data-bs-theme="dark">
             {gallery.map((item, index) => {
               id += 1;
