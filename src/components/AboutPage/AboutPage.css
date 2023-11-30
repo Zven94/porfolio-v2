@@ -13,7 +13,7 @@
 }
 
 .aboutContainer {
-  width: 35rem;
+  width: 40rem;
   height: 40rem;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .resumeButton {
-  width: 25rem;
+  width: 10rem;
   height: 5rem;
   font-size: 1.15rem;
   border-radius: 4rem;
@@ -36,9 +36,23 @@
   inset -10px -10px 15px -10px #ffffff75;
 }
 
+.resumeButton:hover, .resumeButton:active {
+  color: #fff;
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.15rem;
+  border-radius: 4rem;
+  background-color: #0a58ca;
+  border: none;
+  box-shadow: 15px 15px 15px -10px #d9a200,
+  -8px -8px 30px -5px #ffffff75,
+  inset 10px 10px 15px -10px #d1e3ff,
+  inset -10px -10px 15px -10px #ffffff75;
+}
+
 .carouselDiv {
-  width: 41rem;
-  height: 22rem;
+  width: 45rem;
+  height: 26rem;
   border-radius: 4rem;
   /* box-shadow: 10px 10px 10px -5px #0a63a94d, 
   -10px -10px 10px -5px rgba(255, 255, 255, 0.80); */
@@ -50,8 +64,8 @@
 
 .carouselImg, .carousel-inner, .carousel-item {
   border-radius: 3rem;
-  width: 39rem;
-  height: 20rem;
+  width: 43rem;
+  height: 24rem;
 }
 
 .carousel-indicators, .carousel-control-prev, .carousel-control-next-icon {

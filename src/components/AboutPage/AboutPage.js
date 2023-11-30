@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import './AboutPage.css';
 // import picProfile from '../../images/profile-pic.png';
@@ -25,7 +25,14 @@ function AboutPage() {
             If you like what you see and have a project you need coded,
             don’t hesitate to contact me.
           </p>
-          <Button className="w-25 resumeButton">Get Resume</Button>
+          <a
+            href="https://docs.google.com/document/d/1I4CbcVU1984eP7W403HD6JjXyFMZGzQOlxuuoAzwQfk/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="d-flex justify-content-center align-items-center resumeButton"
+          >
+            Get Resume
+          </a>
         </div>
         <div className="d-flex justify-content-center align-items-center carouselDiv">
           <Carousel className="carouselContent" data-bs-theme="dark">
