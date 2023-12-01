@@ -12,7 +12,7 @@ function ContactPage() {
           </h2>
         </div>
         <div className="d-flex flex-column align-items-center w-50">
-          <form className="d-flex flex-column justify-content-between align-items-center formDiv">
+          <form className="d-flex flex-column justify-content-between align-items-center formDiv" action="https://formspree.io/f/xayzvjyw" method="post" target="_blank" rel="noreferrer">
             <div className="d-flex flex-column justify-content-between align-items-center w-100">
               <div className="d-flex flex-column justify-content-center align-items-left w-100">
                 <label htmlFor="name" className="d-flex flex-column justify-content-between label">
