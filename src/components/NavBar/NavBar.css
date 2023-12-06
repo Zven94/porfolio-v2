@@ -35,26 +35,23 @@
 }
 
 .buttonsParent {
- width: 30%;
+ width: 15%;
 }
 
 button {
   width: 3rem;
   height: 3rem;
   border: none;
-  border-radius: 1.5rem;
-  box-shadow: 0px 0px 5px 2px rgb(89 182 255),
-  10px 10px 10px -5px rgb(202 203 204),
-  -10px -10px 10px -5px rgb(253,254,255);
-  /* background-color: #444; */
-  /* box-shadow: 0px 0px 5px 2px rgb(89 182 255), 5px 5px 10px 5px rgb(0 15 31), -5px -5px 10px -4px rgb(253,254,255); */
+  border-radius: .75rem;
+  box-shadow: 5px 5px 5px 0px rgb(202 203 204),
+  -3px -3px 9px 0px rgb(253,254,255);
 }
 
 button:active {
   width: 3rem;
   height: 3rem;
   border: none;
-  border-radius: 1.5rem;
+  border-radius: .75rem;
   box-shadow: 0px 0px 5px 2px rgb(89 182 255),
   inset 6px 6px 6px 0px rgba(10, 99, 169, 0.5),
   10px 10px 10px -5px rgb(202 203 204),
