@@ -83,8 +83,8 @@ body {
 }
 
 .picProfileDiv {
-  width: 36rem;
-  height: 36rem;
+  width: 25.25rem;
+  height: 24.15rem;
   border: none;
   border-radius: 17.5rem;
   box-shadow: 15px 15px 15px -10px rgba(10, 99, 169, 0.5),
@@ -92,7 +92,7 @@ body {
 }
 
 .picProfile {
-  width: 35rem;
+  width: 25rem;
   border: none;
   border-radius: 19.5rem;
   opacity: 0.9;
