@@ -1,17 +1,13 @@
 import React from 'react';
-// import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import './AboutPage.css';
-// import picProfile from '../../images/profile-pic.png';
-import RentForADay from '../../images/rent-for-a-day.png';
-import StockApp from '../../images/stock-viewer.png';
-import SpaceHub from '../../images/space-traveler-hub.png';
-import BookStore from '../../images/bookstore.png';
-import BudgetApp from '../../images/budget-app.png';
-import ArtGallery from '../../images/art-gallery.png';
 
 function AboutPage() {
-  const gallery = [RentForADay, StockApp, SpaceHub, BookStore, BudgetApp, ArtGallery];
+  const stackFront = ['React', 'Redux', 'Node', 'CSS3', 'HTML5', 'Bootstrap'];
+  const stackBack = ['Ruby On Rails', 'PostgreSQL', 'Arduino', 'C++', 'Python', 'Jest', 'Mocha', 'Chai', 'RSpec', 'Capybara', 'Devise'];
+  const stackOthers = ['Git', 'GitHub', 'Trello', 'Slack', 'Figma', 'Adobe Photoshop',
+    'Adobe Illustrator', 'Adobe Lightroom', 'CorelDraw', 'Agile', 'Scrum', 'Kanban', 'Trello'];
+  const stack = [stackFront, stackBack, stackOthers];
   let id = 1;
   return (
     <>
@@ -35,22 +31,78 @@ function AboutPage() {
           </a>
         </div>
         <div className="d-flex justify-content-center align-items-center carouselDiv">
+
           <Carousel className="carouselContent" data-bs-theme="dark">
-            {gallery.map((item, index) => {
+            {stack.map((item, index) => {
               id += 1;
-              return (
-                <Carousel.Item key={id}>
-                  <div className="d-flex justify-content-center">
-                    <img src={item} alt={`Project ${index + 1}`} className="carouselImg" />
-                  </div>
-                </Carousel.Item>
-              );
+              const gridStyle = {
+                display: 'grid',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gridTemplateColumns: 'repeat(2, 1fr)',
+                gap: '10px',
+                listStyleType: 'none',
+                padding: '0',
+              };
+
+              const listStyle = {
+                fontSize: '0.75rem',
+                fontWeight: 'bold',
+                color: '#41a599',
+                padding: '0.75rem',
+                margin: '0',
+              };
+
+              if (index === 0) {
+                return (
+                  <Carousel.Item key={id}>
+                    <div className="d-flex flex-column justify-content-around align-items-center h-100">
+                      <h3 className="display-6">Front-Stack</h3>
+                      <ul style={gridStyle}>
+                        {item.map((stackItem) => (
+                          <li className="listTech w-100" key={`${id}-${stackItem}`}>
+                            <h4 key={item} style={listStyle}>{stackItem}</h4>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </Carousel.Item>
+                );
+              } if (index === 1) {
+                return (
+                  <Carousel.Item key={id}>
+                    <div className="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h3 className="display-6">Back-Stack</h3>
+                      <ul style={gridStyle}>
+                        {item.map((stackItem) => (
+                          <li className="listTech w-100" key={`${id}-${stackItem}`}>
+                            <h4 key={item} style={listStyle}>{stackItem}</h4>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </Carousel.Item>
+                );
+              } if (index === 2) {
+                return (
+                  <Carousel.Item key={id}>
+                    <div className="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h3 className="display-6">Others</h3>
+                      <ul style={gridStyle}>
+                        {item.map((stackItem) => (
+                          <li className="listTech w-100" key={`${id}-${stackItem}`}>
+                            <h4 key={item} style={listStyle}>{stackItem}</h4>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </Carousel.Item>
+                );
+              }
+              return null;
             })}
           </Carousel>
         </div>
-        {/* <div className="d-flex justify-content-center align-items-center picProfileDivAbout">
-          <img className="picProfile" src={picProfile} alt="Nicolás" />
-        </div> */}
       </div>
     </>
   );
