@@ -23,7 +23,17 @@ function ProjectsPage() {
     'https://zven94.github.io/JS-group-capstone/',
   ];
 
-  const gallery = [RentForADay, StockApp, SpaceHub, BookStore, BudgetApp, ArtGallery];
+  const projects = {
+    name: ['Rent For A Day', 'Stock App', 'Space Hub', 'Book Store', 'Budget App', 'Art Gallery'],
+    img: [RentForADay, StockApp, SpaceHub, BookStore, BudgetApp, ArtGallery],
+    description: [
+      'Rent For A Day is a web application to look for accommodations and rent them. It was developed on two basic stacks, React/Redux for the Front-End and Ruby on Rails for the API Back-End.',
+      'Stock App is a web application that allows users to search for stocks and add them to their watchlist. It was developed with React/Redux.',
+      'Space Hub is a web application that allows users to book a trip to space. It use the Space X API to fetch data from the ships options. It was developed with React/Redux.',
+      'Book Store is a web application that allows users to search for books and add them to their cart. It was developed with React/Redux.',
+      'Budget App is a web application that allows users to add their incomes and expenses and see the balance. It was developed with Ruby On Rails.',
+      'Art Gallery is a web application that allows users to search for art pieces and add them to their cart. It was developed with JavaScript.'],
+  };
   let id = 1;
 
   return (
@@ -38,12 +48,11 @@ function ProjectsPage() {
                 id += 1;
                 return (
                   <Card key={id} className="m-3">
-                    <Card.Img variant="top" src={gallery[index]} />
+                    <Card.Img variant="top" src={projects.img[index]} />
                     <Card.Body>
-                      <Card.Title>Project 1</Card.Title>
+                      <Card.Title>{projects.name[index]}</Card.Title>
                       <Card.Text>
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content.
+                        {projects.description[index]}
                       </Card.Text>
                       <div className="d-flex justify-content-center align-items-center">
                         <a href={link} target="_blank" rel="noreferrer" className="projectA">
