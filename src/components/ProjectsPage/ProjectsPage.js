@@ -47,24 +47,26 @@ function ProjectsPage() {
               {links.map((link, index) => {
                 id += 1;
                 return (
-                  <Card key={id} className="m-3">
-                    <Card.Img variant="top" src={projects.img[index]} />
-                    <Card.Body>
-                      <Card.Title>{projects.name[index]}</Card.Title>
-                      <Card.Text>
-                        {projects.description[index]}
-                      </Card.Text>
-                      <div className="d-flex justify-content-center align-items-center">
-                        <a href={link} target="_blank" rel="noreferrer" className="projectA">
-                          <Button className="projectButton">
-                            |
-                            <PiAirplayFill className="projectIcon" />
-                            |
-                          </Button>
-                        </a>
-                      </div>
-                    </Card.Body>
-                  </Card>
+                  <div className="cardContainer" key={id}>
+                    <Card key={id} className="m-3">
+                      <Card.Img variant="top" src={projects.img[index]} />
+                      <Card.Body>
+                        <Card.Title>{projects.name[index]}</Card.Title>
+                        <Card.Text>
+                          {projects.description[index]}
+                        </Card.Text>
+                        <div className="d-flex justify-content-center align-items-center">
+                          <a href={link} target="_blank" rel="noreferrer" className="projectA">
+                            <Button className="projectButton">
+                              |
+                              <PiAirplayFill className="projectIcon" />
+                              |
+                            </Button>
+                          </a>
+                        </div>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 );
               })}
             </Row>

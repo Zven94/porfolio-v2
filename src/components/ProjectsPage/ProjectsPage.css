@@ -8,6 +8,18 @@
   inset -10px -10px 15px -10px #f0f0f0;
 }
 
+.cardContainer {
+  width: 25rem;
+  height: 35rem;
+  padding: 2rem;
+  margin: 1rem;
+  perspective: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .card {
   width: 25rem;
   height: 100%;
@@ -23,6 +35,21 @@
   inset -10px -10px 15px -10px #f0f0f0,
   10px 10px 15px -10px #0a63a94d,
   -10px -10px 15px -10px #f0f0f0;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover  {
+  color: #fff;
+  transform: rotateX(5deg);
+  background-image: linear-gradient(to bottom, rgba(60, 60, 60, 0.5) 10%, rgb(30, 30, 30) 95%);
+
+  .projectButton {
+    color: #fff;
+    box-shadow: 10px 10px 15px -10px #000, 
+    -10px -10px 15px -10px #f0f0f0, 
+    inset 15px 15px 15px -15px #000, 
+    inset -10px -10px 15px -15px #f0f0f0;
+  }
 }
 
 .projectIcon {
