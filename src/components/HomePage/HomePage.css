@@ -31,6 +31,7 @@ body {
   -10px -10px 15px -10px #f0f0f0, 
   inset 10px 10px 15px -10px #0a63a94d, 
   inset -10px -10px 15px -10px #f0f0f0;
+  animation-name: show;
 }
 
 .borderDiv {
@@ -107,17 +108,17 @@ body {
   opacity: 0.9;
 }
 
-/* .picProfileDiv:hover {
-  width: 30rem;
-  height: 30rem;
-  border-radius: 15rem;
-  box-shadow: 0px 0px 5px 2px rgb(89 182 255),
-  15px 15px 15px -10px rgba(10, 99, 169, 0.5),
-  -15px -15px 15px -10px rgba(255, 255, 255, 0.80);
+.aboutDiv, .projectsDiv, .contactDiv {
+  animation: show linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
 
-  .picProfile {
-    width: 29rem;
-    border: none;
-    border-radius: 15rem;
+@keyframes show {
+  from {
+    opacity: 0;
   }
-} */
+  to {
+    opacity: 1;
+  }
+}
