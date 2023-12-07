@@ -7,6 +7,17 @@ import { IoMdContact } from 'react-icons/io';
 import './NavBar.css';
 
 function NavBar() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    const offset = 10;
+    const offsetPosition = section.offsetTop - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <>
       <div className="navBar p-1">
@@ -17,26 +28,18 @@ function NavBar() {
             </div>
           </div>
           <div className="d-flex justify-content-between align-items-center buttonsParent">
-            <a href="#homeDiv">
-              <button type="submit">
-                <BsHouseDoorFill alt="home" size={25} color="rgb(89 182 255)" />
-              </button>
-            </a>
-            <a href="#aboutDiv">
-              <button type="submit">
-                <SiAboutdotme alt="about" size={25} color="rgb(89 182 255)" />
-              </button>
-            </a>
-            <a href="#projectsDiv">
-              <button type="submit">
-                <GrProjects alt="projects" size={25} color="rgb(89 182 255)" />
-              </button>
-            </a>
-            <a href="#contactDiv">
-              <button type="submit">
-                <IoMdContact alt="contact" size={25} color="rgb(89 182 255)" />
-              </button>
-            </a>
+            <button type="submit" onClick={() => scrollToSection('homeDiv')}>
+              <BsHouseDoorFill alt="home" size={25} color="rgb(89 182 255)" />
+            </button>
+            <button type="submit" onClick={() => scrollToSection('aboutDiv')}>
+              <SiAboutdotme alt="about" size={25} color="rgb(89 182 255)" />
+            </button>
+            <button type="submit" onClick={() => scrollToSection('projectsDiv')}>
+              <GrProjects alt="projects" size={25} color="rgb(89 182 255)" />
+            </button>
+            <button type="submit" onClick={() => scrollToSection('contactDiv')}>
+              <IoMdContact alt="contact" size={25} color="rgb(89 182 255)" />
+            </button>
           </div>
         </div>
       </div>
