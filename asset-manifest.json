@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/porfolio-v2/static/css/main.d6d0587f.css",
+    "main.js": "/porfolio-v2/static/js/main.6c0d18db.js",
+    "static/js/787.d69e2ff5.chunk.js": "/porfolio-v2/static/js/787.d69e2ff5.chunk.js",
+    "static/media/profile-no-background.png": "/porfolio-v2/static/media/profile-no-background.8c7aff85b878a8944a7b.png",
+    "static/media/rent-for-a-day.png": "/porfolio-v2/static/media/rent-for-a-day.05b9ae4b4c96250e2144.png",
+    "static/media/art-gallery.png": "/porfolio-v2/static/media/art-gallery.0967f9e97b1990b44b83.png",
+    "static/media/stock-viewer.png": "/porfolio-v2/static/media/stock-viewer.3104aaca7def3b4fc1a5.png",
+    "static/media/space-traveler-hub.png": "/porfolio-v2/static/media/space-traveler-hub.6c4b3753621ebdc53041.png",
+    "static/media/bookstore.png": "/porfolio-v2/static/media/bookstore.37b556e0ab5512bfbcdb.png",
+    "static/media/budget-app.png": "/porfolio-v2/static/media/budget-app.56ded5854de6a0e18fb6.png",
+    "index.html": "/porfolio-v2/index.html",
+    "main.d6d0587f.css.map": "/porfolio-v2/static/css/main.d6d0587f.css.map",
+    "main.6c0d18db.js.map": "/porfolio-v2/static/js/main.6c0d18db.js.map",
+    "787.d69e2ff5.chunk.js.map": "/porfolio-v2/static/js/787.d69e2ff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6d0587f.css",
+    "static/js/main.6c0d18db.js"
+  ]
+}
