@@ -15,11 +15,15 @@ function AboutPage() {
         <div className="d-flex flex-column justify-content-around text-left aboutContainer">
           <h1 className="display-1">About me</h1>
           <p className="w-75 text-align-center AboutP">
-            Hello I’m a software developer!
-            I can help you build a product,
-            feature or website Look through some of my work and experience!
-            If you like what you see and have a project you need coded,
-            don’t hesitate to contact me.
+            Greetings! I am a digital artisan passionate about
+            transforming ideas into captivating digital experiences.
+            My portfolio is a testament to the artistry
+            I bring to coding: each project tells a unique story
+            crafted with precision and creativity.
+            If you&apos;re looking for a collaborator who speaks both
+            the language of programming and the dialect of creativity,
+            your search ends here. Let us embark together on a journey
+            to turn your concepts into extraordinary digital wonders.
           </p>
           <a
             href="https://docs.google.com/document/d/1I4CbcVU1984eP7W403HD6JjXyFMZGzQOlxuuoAzwQfk/edit?usp=sharing"

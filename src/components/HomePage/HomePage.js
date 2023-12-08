@@ -20,12 +20,12 @@ function HomePage() {
                   <div className=" d-flex justify-content-center">
                     <h1 className="headerOne">
                       Hi there.
-                      I`m Nico.
+                      I&apos;m Nico.
                     </h1>
                   </div>
                   <div className="headerTwoDiv ">
                     <h2 className="headerTwo">
-                      I`m a software developer.
+                      I&apos;m a software developer.
                     </h2>
                   </div>
                   <div className="d-flex justify-content-center">
