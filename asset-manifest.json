@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/porfolio-v2/static/css/main.2dd06ef1.css",
-    "main.js": "/porfolio-v2/static/js/main.951193da.js",
+    "main.css": "/porfolio-v2/static/css/main.cc740a5d.css",
+    "main.js": "/porfolio-v2/static/js/main.efc807f9.js",
     "static/media/profile-no-background.png": "/porfolio-v2/static/media/profile-no-background.8c7aff85b878a8944a7b.png",
     "static/media/rent-for-a-day.png": "/porfolio-v2/static/media/rent-for-a-day.05b9ae4b4c96250e2144.png",
     "static/media/art-gallery.png": "/porfolio-v2/static/media/art-gallery.0967f9e97b1990b44b83.png",
@@ -10,11 +10,11 @@
     "static/media/bookstore.png": "/porfolio-v2/static/media/bookstore.37b556e0ab5512bfbcdb.png",
     "static/media/budget-app.png": "/porfolio-v2/static/media/budget-app.56ded5854de6a0e18fb6.png",
     "index.html": "/porfolio-v2/index.html",
-    "main.2dd06ef1.css.map": "/porfolio-v2/static/css/main.2dd06ef1.css.map",
-    "main.951193da.js.map": "/porfolio-v2/static/js/main.951193da.js.map"
+    "main.cc740a5d.css.map": "/porfolio-v2/static/css/main.cc740a5d.css.map",
+    "main.efc807f9.js.map": "/porfolio-v2/static/js/main.efc807f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd06ef1.css",
-    "static/js/main.951193da.js"
+    "static/css/main.cc740a5d.css",
+    "static/js/main.efc807f9.js"
   ]
 }
